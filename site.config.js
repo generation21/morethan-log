@@ -6,8 +6,8 @@ const CONFIG = {
     role: "AI developer",
     bio: "I develop everything using node.",
     email: "qbration21@gmail.com",
-    linkedin: "qbration21",
-    github: "qbration21",
+    linkedin: "seungbum-hong-531311171",
+    github: "generation21",
     instagram: "",
   },
   projects: [
@@ -69,7 +69,7 @@ const CONFIG = {
     },
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
-  revalidateTime: 21600 * 7, // revalidate time for [slug], index
+  revalidateTime: 3600 * 24, // revalidate time for [slug], index
 }
 
 module.exports = { CONFIG }
